@@ -1,7 +1,7 @@
 #! /bin/bash -x
 echo enter email to validate
 read mail
-pat="^[abc]"
+pat="^@bridgelabz$"
 if [[ $mail =~ $pat ]]
 then
 echo yes
